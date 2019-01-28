@@ -1,5 +1,3 @@
-import { runInThisContext } from "vm";
-
 function Person(fullName, favColor) {
   this.name = fullName;
   this.favoriteColor = favColor;
@@ -13,3 +11,5 @@ function Person(fullName, favColor) {
     );
   };
 }
+
+module.exports = Person;
